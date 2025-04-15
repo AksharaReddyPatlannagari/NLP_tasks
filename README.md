@@ -15,7 +15,6 @@ The goal of the project is to showcase the multi-task learning approach and demo
 To run this project, you can either use Docker or set it up in your local environment.
 
 ### Option 1: Running with Docker
-  If you prefer to use Docker, follow these steps:
   
   1. Build the Docker Image:
     - Open your terminal and navigate to the project directory.
@@ -37,7 +36,6 @@ To run this project, you can either use Docker or set it up in your local enviro
      Open task.ipynb in Jupyter and run the cells sequentially to complete the tasks.
 
 ### Option 2: Running Locally
-  If you prefer to set up the environment locally without Docker:
   
   1. Clone the Repository:
      - Clone the repository to your local machine:
