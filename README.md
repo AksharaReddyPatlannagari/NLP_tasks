@@ -2,17 +2,13 @@
 
 This repository contains code for a multi-task NLP project. The project includes tasks such as text classification and named entity recognition (NER), with all the necessary dependencies, Docker container setup, and explanations included. 
 
-The goal of the project is to showcase the multi-task learning approach and demonstrate how each task can be solved using various NLP models.
-
-## Project Structure
-
-The repository is structured as follows:
-
-my_project/
-├── Dockerfile         # Docker container setup to run the project in an isolated environment  
-├── requirements.txt   # List of dependencies required to run the project  
-├── task.ipynb         # Jupyter notebook containing the code for the tasks  
-└── README.md          # This file  
+The goal of the project is to showcase the multi-task learning approach and demonstrate how each task can be solved using various NLP models. These are the four main tasks:
+- Task 1: Sentence Transformer Implementation
+- Task 2: Multi-Task Learning Expansion
+  - Task A: Sentence Classification (with six made-up categories)
+  - Task B: Sentiment Analysis (with three sentiment labels)
+- Task 3: Training Considerations
+- Task 4: Training Loop Implementation (BONUS)
 
 ## Getting Started
 
@@ -32,7 +28,7 @@ To run this project, you can either use Docker or set it up in your local enviro
      - After building the image, run the container with the following command:
   
        ```bash
-        docker run -p 8888:8888 multitask-nlp
+       docker run -p 8888:8888 multitask-nlp
       ```
   3. Access Jupyter Notebook:
      Once the container is running, you can access the Jupyter Notebook interface by navigating to [http://localhost:8888]http://localhost:8888 in your web browser.
@@ -60,4 +56,6 @@ To run this project, you can either use Docker or set it up in your local enviro
         jupyter notebook
        ```
      - Open task.ipynb and run the cells.
+    
+  
 
