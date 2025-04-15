@@ -1,1 +1,63 @@
 # NLP_tasks
+
+This repository contains code for a multi-task NLP project. The project includes tasks such as text classification and named entity recognition (NER), with all the necessary dependencies, Docker container setup, and explanations included. 
+
+The goal of the project is to showcase the multi-task learning approach and demonstrate how each task can be solved using various NLP models.
+
+## Project Structure
+
+The repository is structured as follows:
+
+my_project/
+├── Dockerfile         # Docker container setup to run the project in an isolated environment  
+├── requirements.txt   # List of dependencies required to run the project  
+├── task.ipynb         # Jupyter notebook containing the code for the tasks  
+└── README.md          # This file  
+
+## Getting Started
+
+To run this project, you can either use Docker or set it up in your local environment.
+
+###Option 1: Running with Docker
+  If you prefer to use Docker, follow these steps:
+  
+  1. Build the Docker Image:
+    - Open your terminal and navigate to the project directory.
+    - Build the Docker image using the following command:
+  
+      ```bash
+      docker build -t multitask-nlp .
+      ```
+  2. Run the Docker Container:
+     - After building the image, run the container with the following command:
+  
+       ```bash
+        docker run -p 8888:8888 multitask-nlp
+      ```
+  3. Access Jupyter Notebook:
+     Once the container is running, you can access the Jupyter Notebook interface by navigating to [http://localhost:8888]http://localhost:8888 in your web browser.
+  
+  4. Execute the Notebook:
+     Open task.ipynb in Jupyter and run the cells sequentially to complete the tasks.
+
+### Option 2: Running Locally
+  If you prefer to set up the environment locally without Docker:
+  
+  1. Clone the Repository:
+     - Clone the repository to your local machine:
+       ```bash
+       git clone https://github.com/yourusername/my_project.git
+       cd my_project
+       ```
+  2. Install Dependencies:
+     - Install the necessary Python dependencies from requirements.txt:
+       ```bash
+        pip install -r requirements.txt
+       ```
+  3. Run the Notebook:
+     - Launch Jupyter Notebook:
+       ```bash
+        jupyter notebook
+       ```
+     - Open task.ipynb and run the cells.
+
