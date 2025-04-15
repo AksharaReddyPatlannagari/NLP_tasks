@@ -14,7 +14,7 @@ The goal of the project is to showcase the multi-task learning approach and demo
 
 To run this project, you can either use Docker or set it up in your local environment.
 
-###Option 1: Running with Docker
+### Option 1: Running with Docker
   If you prefer to use Docker, follow these steps:
   
   1. Build the Docker Image:
