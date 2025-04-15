@@ -27,9 +27,9 @@ To run this project, you can either use Docker or set it up in your local enviro
   2. Run the Docker Container:
      - After building the image, run the container with the following command:
   
-      ```bash
-      docker build -t multitask-nlp .
-      ```
+        ```bash
+        docker build -t multitask-nlp .
+        ```
   3. Access Jupyter Notebook:
      Once the container is running, you can access the Jupyter Notebook interface by navigating to [http://localhost:8888]http://localhost:8888 in your web browser.
   
