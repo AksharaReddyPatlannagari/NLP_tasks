@@ -5,8 +5,8 @@ This repository contains code for a multi-task NLP project. The project includes
 The goal of the project is to showcase the multi-task learning approach and demonstrate how each task can be solved using various NLP models. These are the four main tasks:
 - Task 1: Sentence Transformer Implementation
 - Task 2: Multi-Task Learning Expansion
-  - Task A: Sentence Classification (with six made-up categories)
-  - Task B: Sentiment Analysis (with three sentiment labels)
+  - Task A: Sentence Classification (with 3 made-up categories)
+  - Task B: Named Entity Recognition (with 5 entities)
 - Task 3: Training Considerations
 - Task 4: Training Loop Implementation (BONUS)
 
@@ -27,7 +27,7 @@ To run this project, you can either use Docker or set it up in your local enviro
      - After building the image, run the container with the following command:
   
         ```bash
-        docker build -t multitask-nlp .
+        docker run -p 8888:8888 multitask-nlp
         ```
   3. Access Jupyter Notebook:
      Once the container is running, you can access the Jupyter Notebook interface by navigating to [http://localhost:8888]http://localhost:8888 in your web browser.
