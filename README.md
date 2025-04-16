@@ -30,7 +30,7 @@ To run this project, you can either use Docker or set it up in your local enviro
         docker run -p 8888:8888 multitask-nlp
         ```
   3. Access Jupyter Notebook:
-     Once the container is running, you can access the Jupyter Notebook interface by navigating to [http://localhost:8888]http://localhost:8888 in your web browser.
+     Once the container is running, you can access the Jupyter Notebook interface by navigating to [http://localhost:8888] in your web browser.
   
   4. Execute the Notebook:
      Open task.ipynb in Jupyter and run the cells sequentially to complete the tasks.
