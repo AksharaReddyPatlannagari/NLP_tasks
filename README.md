@@ -1,6 +1,6 @@
 # NLP_tasks
 
-This repository contains code for a multi-task NLP project. The project includes tasks such as text classification and named entity recognition (NER), with all the necessary dependencies, Docker container setup, and explanations included. 
+This repository contains code for a multi-task NLP project. The project includes tasks such as sentence classification and named entity recognition (NER), with all the necessary dependencies, Docker container setup, and explanations included. 
 
 The goal of the project is to showcase the multi-task learning approach and demonstrate how each task can be solved using various NLP models. These are the four main tasks:
 - Task 1: Sentence Transformer Implementation
